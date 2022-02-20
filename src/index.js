@@ -13,14 +13,15 @@ app.use("/api", userRoute);
 
 // routes
 app.get("/", (req, res) => {
-  res.send("Welcome to my API");
+  res.send("Bienvenido a mi API");
 });
 
 // mongodb connection
-mongoose
-  .connect(process.env.MONGODB_URI)
-  .then(() => console.log("Connected to MongoDB Atlas"))
-  .catch((error) => console.error(error));
+mongoose.connect(
+    process.env.MONGODB_URI)
+    .then(() => console.log("Conectado a la base de datos"))
+    .catch((error) => console.error(error));
+    
 
 // server listening
-app.listen(port, () => console.log("Server listening to", port));
+app.listen(port, () => console.log("Servidor a la escucha del puerto", port));
