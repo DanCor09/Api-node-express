@@ -6,7 +6,5 @@ PROGRAMADORES
  *Angie Paola Polo Castro
   <BR>
  *Yerardin Paternina Acosta
-
-    <BR>
-      Yuliana Plaza Valenzuela
-      
+<BR>
+  * Yuliana Plaza Valenzuela
